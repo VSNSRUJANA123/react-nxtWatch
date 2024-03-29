@@ -1,0 +1,9 @@
+.no-saved-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.no-saved-container img {
+  width: 40%;
+}

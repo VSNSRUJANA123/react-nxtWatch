@@ -1,0 +1,16 @@
+.gaming-videos-container {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+.gaming-videos-list {
+  width: 260px;
+  margin: 10px;
+}
+.gaming-img {
+  width: 100%;
+}
+.gaming-videos-list p {
+  margin: 0;
+  padding: 3px;
+}

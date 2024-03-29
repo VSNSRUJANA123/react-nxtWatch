@@ -1,0 +1,110 @@
+.sidenav-home-container {
+  display: flex;
+}
+.loader-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+.home-container {
+  width: 100%;
+}
+.bannerImg {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-watch-banner-bg.png ');
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+}
+
+.videos-container {
+  padding: 20px;
+  width: 100%;
+  background-color: #e2e8f0;
+}
+.get-now {
+  margin: 7px;
+  padding: 10px;
+  border: 1px solid black;
+  background-color: transparent;
+}
+.search-container {
+  display: flex;
+  align-items: center;
+}
+.search-container input {
+  width: 40%;
+  padding: 10px;
+}
+.search-container button {
+  padding: 10px;
+  width: 60px;
+}
+.video-ul-container {
+  display: flex;
+  margin: 0;
+  list-style: none;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.thumbnail {
+  width: 100%;
+}
+.li-videos-thumbnails {
+  width: 250px;
+  margin: 10px;
+}
+
+.icon-btn {
+  font-size: 40px;
+  background: transparent;
+  border: none;
+}
+.thumbnail-profile-container {
+  display: flex;
+  align-items: flex-start;
+}
+.thumbnail-profile {
+  width: 40px;
+  margin-top: 16px;
+  margin-right: 7px;
+}
+.channel-para {
+  margin: 0;
+  padding: 0;
+  margin-right: 15px;
+}
+.channel-div {
+  display: flex;
+}
+.link-style {
+  text-decoration: none;
+  color: black;
+}
+.no-videos-container {
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.no-videos {
+  width: 40%;
+}
+.retry {
+  border: none;
+  padding: 12px;
+  border-radius: 7px;
+  color: white;
+  background-color: #3b82f6;
+}
+.videos-active {
+  background-color: #181818;
+}
+.no-videos-active-active {
+  color: white;
+}
+.li-videos-thumbnails-active {
+  color: white;
+}

@@ -1,0 +1,33 @@
+.trending-container {
+  width: 100%;
+}
+.trending-logo {
+  display: flex;
+  align-items: center;
+}
+.trending-videos-container {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.trending-videos-list {
+  width: 100%;
+  margin: 10px;
+  display: flex;
+}
+.trending-img {
+  width: 40%;
+  height: 160px;
+}
+.trending-para {
+  margin-left: 15px;
+}
+.trending-para div {
+  display: flex;
+}
+.trending-para div p {
+  margin: 0;
+  padding: 0;
+  padding-left: 10px;
+}
